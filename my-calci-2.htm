@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html >
+<head>
+  
+    <link rel="stylesheet" type="text/css" href="calci.css">
+    <script src="my-calci-1.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CALCU</title>
+</head>
+<body >
+    <div  >
+        <h1>CALCULATOR</h1>
+
+        <input id="tb" name="tbox" type="text"  ><br><br>
+        <button  onclick="digit(7)" >7</button>
+        <button  onclick="digit(8)" >8</button>
+        <button  onclick="digit(9)" >9</button>
+     
+        <input id="operator_button" type="button" value="+" onclick="digit(this.value)"><br>
+
+        <button  onclick="digit(4)">4</button>
+        <button  onclick="digit(5)">5</button>
+        <button  onclick="digit(6)">6</button>
+       
+        <input id="operator_button" type="button" value="-" onclick="digit(this.value)"><br>
+
+        <button  onclick="digit(1)">1</button>
+        <button  onclick="digit(2)">2</button>
+        <button  onclick="digit(3)" >3</button>
+
+        <input id="operator_button" type="button" value="*" onclick="digit(this.value)"><br>
+        <input id="operator_button" type="button" value="." onclick="digit(this.value)">
+
+        <button  onclick="digit(0)">0</button>
+        
+        <input id="operator_button" type="button" value="/" onclick="digit(this.value)">
+
+        <button  onclick="clr()">C</button><br>
+
+        <button  class="eql_button" onclick="equal_button()">=</button>
+
+    </div>
+    
+</body>
+</html>

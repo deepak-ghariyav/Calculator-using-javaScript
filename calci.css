@@ -1,0 +1,43 @@
+
+      #operator_button,button{
+          color: white;
+          background-color: black;
+          margin: 5px;
+          width: 50px;
+          height:50px;
+          font-size: 20px;
+          cursor: pointer;
+        
+      }
+      #tb{
+          background-color: black;
+          color: white;
+          border-radius: 0px;
+          width: 18%;
+          height: 35px;
+          font-size: 20px;
+          text-align-last: right;   
+      }
+      .div1{
+          margin-left: 1%;
+          margin-top: 2%;
+      }
+     h1{
+           text-align:center;
+     }
+     .eql_button{
+         width: 18%;
+     }
+     html {
+          background: #100a1c;
+          background-image:
+           radial-gradient(50% 30% ellipse at center top, #201e40 0%, rgba(0,0,0,0) 100%),
+           radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
+          background-attachment: fixed;
+          color: #6cacc5;
+          /* font: 300 18px/1.6 "Source Sans Pro",sans-serif;  */
+          margin: 0;
+          padding: 5em 0 2em;
+          text-align: center;
+     }
+         
